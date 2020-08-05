@@ -131,6 +131,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MinimizeBox = false;
             this.Name = "Ejercicio1";
             this.Text = "Ejercicio1";
             this.ResumeLayout(false);

@@ -30,8 +30,11 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pb1 = new System.Windows.Forms.PictureBox();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pb2 = new System.Windows.Forms.PictureBox();
+            this.pb1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,17 +59,6 @@
             this.label2.Text = "Identifica el mayor de 2 números";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // pb1
-            // 
-            this.pb1.Image = global::EjemploMenuEjerciciosCondiciones.Properties.Resources.unnamed;
-            this.pb1.Location = new System.Drawing.Point(133, 84);
-            this.pb1.Name = "pb1";
-            this.pb1.Size = new System.Drawing.Size(69, 61);
-            this.pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb1.TabIndex = 2;
-            this.pb1.TabStop = false;
-            this.pb1.Click += new System.EventHandler(this.pb1_Click);
-            // 
             // btnSalir
             // 
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -79,12 +71,46 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(208, 189);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(354, 23);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Identifica si un número es positivo o negativo";
+            // 
+            // pb2
+            // 
+            this.pb2.Image = global::EjemploMenuEjerciciosCondiciones.Properties.Resources.f6a7d3bf272f52439eadde45df3f7ccf;
+            this.pb2.Location = new System.Drawing.Point(133, 166);
+            this.pb2.Name = "pb2";
+            this.pb2.Size = new System.Drawing.Size(69, 74);
+            this.pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb2.TabIndex = 5;
+            this.pb2.TabStop = false;
+            this.pb2.Click += new System.EventHandler(this.pb2_Click);
+            // 
+            // pb1
+            // 
+            this.pb1.Image = global::EjemploMenuEjerciciosCondiciones.Properties.Resources.unnamed;
+            this.pb1.Location = new System.Drawing.Point(133, 84);
+            this.pb1.Name = "pb1";
+            this.pb1.Size = new System.Drawing.Size(69, 61);
+            this.pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb1.TabIndex = 2;
+            this.pb1.TabStop = false;
+            this.pb1.Click += new System.EventHandler(this.pb1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.pb2);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pb1);
@@ -92,6 +118,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.pb2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -104,6 +131,8 @@
         private System.Windows.Forms.PictureBox pb1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.PictureBox pb2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

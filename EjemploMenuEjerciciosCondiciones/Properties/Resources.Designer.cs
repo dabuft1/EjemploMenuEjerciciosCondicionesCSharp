@@ -83,6 +83,26 @@ namespace EjemploMenuEjerciciosCondiciones.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap f6a7d3bf272f52439eadde45df3f7ccf {
+            get {
+                object obj = ResourceManager.GetObject("f6a7d3bf272f52439eadde45df3f7ccf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logout_90894 {
+            get {
+                object obj = ResourceManager.GetObject("logout_90894", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap numero {
             get {
                 object obj = ResourceManager.GetObject("numero", resourceCulture);
